@@ -1,0 +1,200 @@
+2022-08-25 16:48:10 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: login
+2022-08-25 16:48:10 INFO  ers.servlet.FrontController:57 - User is logging in...
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:49 - In RequestHelper - processLogin() started
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:63 - Request body for login is: {    "username": "aaknox",    "password": "password"}
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:69 - Original body K/V pair: username: aaknox
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:71 - Going into values arraylist --> aaknox
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:69 - Original body K/V pair: password: password
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:71 - Going into values arraylist --> password
+2022-08-25 16:48:10 INFO  ers.servlet.RequestHelper:75 - User information extracted is: [aaknox, password]
+2022-08-25 16:48:10 INFO  ers.services.UserServiceImplementation:23 - In UserServiceImplementation - login() started. Credentials: UserName:aaknoxPassword: password
+2022-08-25 16:48:10 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-25 16:48:10 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-25 16:48:11 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:48:11 INFO  ers.services.UserServiceImplementation:30 - In UserServiceImplementation - login() ended. Credentials match!
+2022-08-25 16:48:12 INFO  ers.services.UserServiceImplementation:64 - In UserServiceImpl - getUserByUsername() started. Username: aaknox
+2022-08-25 16:48:12 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-25 16:48:12 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-25 16:48:12 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:48:12 INFO  ers.services.UserServiceImplementation:70 - In UserServiceImpl - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:48:13 INFO  ers.servlet.RequestHelper:106 - Login successful - returning cookie in response
+2022-08-25 16:48:13 INFO  ers.servlet.RequestHelper:111 - In RequestHelper - processLogin() ended
+2022-08-25 16:53:41 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: login
+2022-08-25 16:53:41 INFO  ers.servlet.FrontController:57 - User is logging in...
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:49 - In RequestHelper - processLogin() started
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:63 - Request body for login is: {    "username": "aaknox",    "password": "password"}
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:69 - Original body K/V pair: username: aaknox
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:71 - Going into values arraylist --> aaknox
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:69 - Original body K/V pair: password: password
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:71 - Going into values arraylist --> password
+2022-08-25 16:53:41 INFO  ers.servlet.RequestHelper:75 - User information extracted is: [aaknox, password]
+2022-08-25 16:53:41 INFO  ers.services.UserServiceImplementation:23 - In UserServiceImplementation - login() started. Credentials: UserName:aaknoxPassword: password
+2022-08-25 16:53:41 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-25 16:53:41 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-25 16:53:42 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:53:42 INFO  ers.services.UserServiceImplementation:30 - In UserServiceImplementation - login() ended. Credentials match!
+2022-08-25 16:53:43 INFO  ers.services.UserServiceImplementation:64 - In UserServiceImpl - getUserByUsername() started. Username: aaknox
+2022-08-25 16:53:43 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-25 16:53:43 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-25 16:53:44 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:53:44 INFO  ers.services.UserServiceImplementation:70 - In UserServiceImpl - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=1]]
+2022-08-25 16:53:44 INFO  ers.servlet.RequestHelper:106 - Login successful - returning cookie in response
+2022-08-25 16:53:44 INFO  ers.servlet.RequestHelper:111 - In RequestHelper - processLogin() ended
+2022-08-26 00:46:07 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: login
+2022-08-26 00:46:07 INFO  ers.servlet.FrontController:57 - User is logging in...
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:54 - In RequestHelper - processLogin() started
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:68 - Request body for login is: {    "username": "aaknox",    "password": "password"}
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:74 - Original body K/V pair: username: aaknox
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:76 - Going into values arraylist --> aaknox
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:74 - Original body K/V pair: password: password
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:76 - Going into values arraylist --> password
+2022-08-26 00:46:07 INFO  ers.servlet.RequestHelper:80 - User information extracted is: [aaknox, password]
+2022-08-26 00:46:07 INFO  ers.services.UserServiceImplementation:23 - In UserServiceImplementation - login() started. Credentials: UserName:aaknoxPassword: password
+2022-08-26 00:46:07 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-26 00:46:07 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 00:46:08 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 00:46:08 INFO  ers.services.UserServiceImplementation:30 - In UserServiceImplementation - login() ended. Credentials match!
+2022-08-26 00:46:09 INFO  ers.services.UserServiceImplementation:64 - In UserServiceImpl - getUserByUsername() started. Username: aaknox
+2022-08-26 00:46:09 INFO  ers.dao.UserDAOImplementation:53 - In UserDAOImplementation - getUserByUserName() started. Searching username: aaknox
+2022-08-26 00:46:09 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 00:46:10 INFO  ers.dao.UserDAOImplementation:76 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 00:46:10 INFO  ers.services.UserServiceImplementation:70 - In UserServiceImpl - getUserByUsername() ended. Found user: Users [user_id=1, userName=aaknox, password=password, firstName=Azhya, lastName=Knox, email=azhya.knox@gmail.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 00:46:10 INFO  ers.servlet.RequestHelper:111 - Login successful - returning cookie in response
+2022-08-26 00:46:10 INFO  ers.servlet.RequestHelper:117 - In RequestHelper - processLogin() ended
+2022-08-26 00:52:09 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 00:52:09 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: {    "username": "aaknox",    "password": "password"}
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: username: aaknox
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> aaknox
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: password: password
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> password
+2022-08-26 00:52:09 INFO  ers.servlet.RequestHelper:170 - User information extracted is: [aaknox, password]
+2022-08-26 00:52:58 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 00:52:58 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: {    "username": "aaknox",    "password": "password"}
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: username: aaknox
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> aaknox
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: password: password
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> password
+2022-08-26 00:52:58 INFO  ers.servlet.RequestHelper:170 - User information extracted is: [aaknox, password]
+2022-08-26 00:53:52 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 00:53:52 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 00:53:52 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 00:53:52 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: 
+2022-08-26 00:53:52 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: 
+2022-08-26 00:53:52 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> 
+2022-08-26 00:53:52 INFO  ers.servlet.RequestHelper:170 - User information extracted is: []
+2022-08-26 00:56:07 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 00:56:07 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: {    "username": "jjreev",    "password": "password",    "firstName":"jerry",    "lastName":"reeves",    "email":"jerry467@rev.com"}
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: username: jjreev
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jjreev
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: password: password
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> password
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: firstName:jerry
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jerry
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: lastName:reeves
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> reeves
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: email:jerry467@rev.com
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jerry467@rev.com
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:170 - User information extracted is: [jjreev, password, jerry, reeves, jerry467@rev.com]
+2022-08-26 00:56:07 INFO  ers.servlet.RequestHelper:183 - Target user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=null]
+2022-08-26 00:56:07 INFO  ers.services.UserServiceImplementation:41 - In UserServiceImplementation - newAccount() started. New user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=null]
+2022-08-26 00:56:07 INFO  ers.dao.UserDAOImplementation:24 - In UserDAOImplementation - createUser() started. Adding user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=null]
+2022-08-26 00:56:07 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:00:23 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 01:00:23 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: {    "username": "jjreev",    "password": "password",    "firstName":"jerry",    "lastName":"reeves",    "email":"jerry467@rev.com"}
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: username: jjreev
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jjreev
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: password: password
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> password
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: firstName:jerry
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jerry
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: lastName:reeves
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> reeves
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: email:jerry467@rev.com
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jerry467@rev.com
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:170 - User information extracted is: [jjreev, password, jerry, reeves, jerry467@rev.com]
+2022-08-26 01:00:23 INFO  ers.servlet.RequestHelper:183 - Target user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:00:23 INFO  ers.services.UserServiceImplementation:41 - In UserServiceImplementation - newAccount() started. New user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:00:23 INFO  ers.dao.UserDAOImplementation:24 - In UserDAOImplementation - createUser() started. Adding user: Users [user_id=0, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:00:23 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:00:24 INFO  ers.dao.UserDAOImplementation:36 - Successful registration to DB: true for yes/ false for no: false
+2022-08-26 01:00:24 INFO  ers.dao.UserDAOImplementation:47 - In UserDAOImplementation - createUser() ended. New user id is: 2
+2022-08-26 01:00:24 INFO  ers.services.UserServiceImplementation:45 - In UserServiceImplementation - newAccount() ended. New user id: 2
+2022-08-26 01:00:25 INFO  ers.servlet.RequestHelper:206 - New user info: Users [user_id=2, userName=jjreev, password=password, firstName=jerry, lastName=reeves, email=jerry467@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:00:25 INFO  ers.servlet.RequestHelper:214 - In RequestHelper - processRegistration() ended
+2022-08-26 01:16:05 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 01:16:05 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:138 - Request body for registration is: {    "username": "bob1",    "password": "password",    "firstName":"bob",    "lastName":"jones",    "email":"bob1@rev.com"}
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: username: bob1
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> bob1
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: password: password
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> password
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: firstName:bob
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> bob
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: lastName:jones
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> jones
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:160 - Original body K/V pair: email:bob1@rev.com
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:162 - Going into values arraylist --> bob1@rev.com
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:170 - User information extracted is: [bob1, password, bob, jones, bob1@rev.com]
+2022-08-26 01:16:05 INFO  ers.servlet.RequestHelper:183 - Target user: Users [user_id=0, userName=bob1, password=password, firstName=bob, lastName=jones, email=bob1@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:16:05 INFO  ers.services.UserServiceImplementation:41 - In UserServiceImplementation - newAccount() started. New user: Users [user_id=0, userName=bob1, password=password, firstName=bob, lastName=jones, email=bob1@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:16:05 INFO  ers.dao.UserDAOImplementation:24 - In UserDAOImplementation - createUser() started. Adding user: Users [user_id=0, userName=bob1, password=password, firstName=bob, lastName=jones, email=bob1@rev.com, role=UserRoles [roleId=0, role=Employee]]
+2022-08-26 01:16:05 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:16:07 INFO  ers.dao.UserDAOImplementation:36 - Successful registration to DB: true for yes/ false for no: false
+2022-08-26 01:16:07 INFO  ers.dao.UserDAOImplementation:52 - In UserDAOImplementation - createUser() ended. New user id is: 3
+2022-08-26 01:16:07 INFO  ers.services.UserServiceImplementation:45 - In UserServiceImplementation - newAccount() ended. New user id: 3
+2022-08-26 01:16:08 INFO  ers.servlet.RequestHelper:206 - New user info: Users [user_id=3, userName=bob1, password=password, firstName=bob, lastName=jones, email=bob1@rev.com, role=UserRoles [roleId=3, role=Employee]]
+2022-08-26 01:16:08 INFO  ers.servlet.RequestHelper:214 - In RequestHelper - processRegistration() ended
+2022-08-26 01:23:08 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: register
+2022-08-26 01:23:08 INFO  ers.servlet.FrontController:61 - User is registering for new Account...
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:124 - In RequestHelper - processRegistration() started
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:139 - Request body for registration is: {    "username": "manager1",    "password": "admin",    "firstName":"josh",    "lastName":"fisher",    "email":"joshf@rev.com"}
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:161 - Original body K/V pair: username: manager1
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:163 - Going into values arraylist --> manager1
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:161 - Original body K/V pair: password: admin
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:163 - Going into values arraylist --> admin
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:161 - Original body K/V pair: firstName:josh
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:163 - Going into values arraylist --> josh
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:161 - Original body K/V pair: lastName:fisher
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:163 - Going into values arraylist --> fisher
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:161 - Original body K/V pair: email:joshf@rev.com
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:163 - Going into values arraylist --> joshf@rev.com
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:171 - User information extracted is: [manager1, admin, josh, fisher, joshf@rev.com]
+2022-08-26 01:23:08 INFO  ers.servlet.RequestHelper:188 - Target user: Users [user_id=0, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:23:08 INFO  ers.services.UserServiceImplementation:41 - In UserServiceImplementation - newAccount() started. New user: Users [user_id=0, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:23:08 INFO  ers.dao.UserDAOImplementation:24 - In UserDAOImplementation - createUser() started. Adding user: Users [user_id=0, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:23:08 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:23:10 INFO  ers.dao.UserDAOImplementation:36 - Successful registration to DB: true for yes/ false for no: false
+2022-08-26 01:23:10 INFO  ers.dao.UserDAOImplementation:52 - In UserDAOImplementation - createUser() ended. New user id is: 4
+2022-08-26 01:23:10 INFO  ers.services.UserServiceImplementation:45 - In UserServiceImplementation - newAccount() ended. New user id: 4
+2022-08-26 01:23:11 INFO  ers.servlet.RequestHelper:211 - New user info: Users [user_id=4, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=4, role=ADMIN]]
+2022-08-26 01:23:11 INFO  ers.servlet.RequestHelper:219 - In RequestHelper - processRegistration() ended
+2022-08-26 01:24:37 INFO  ers.servlet.FrontController:53 - User trying to access endpoint: login
+2022-08-26 01:24:37 INFO  ers.servlet.FrontController:57 - User is logging in...
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:54 - In RequestHelper - processLogin() started
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:68 - Request body for login is: {    "username": "manager1",    "password": "admin"}
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:74 - Original body K/V pair: username: manager1
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:76 - Going into values arraylist --> manager1
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:74 - Original body K/V pair: password: admin
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:76 - Going into values arraylist --> admin
+2022-08-26 01:24:37 INFO  ers.servlet.RequestHelper:80 - User information extracted is: [manager1, admin]
+2022-08-26 01:24:37 INFO  ers.services.UserServiceImplementation:23 - In UserServiceImplementation - login() started. Credentials: UserName:manager1Password: admin
+2022-08-26 01:24:37 INFO  ers.dao.UserDAOImplementation:58 - In UserDAOImplementation - getUserByUserName() started. Searching username: manager1
+2022-08-26 01:24:37 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:24:37 INFO  ers.dao.UserDAOImplementation:81 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=4, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:24:37 INFO  ers.services.UserServiceImplementation:30 - In UserServiceImplementation - login() ended. Credentials match!
+2022-08-26 01:24:37 INFO  ers.services.UserServiceImplementation:64 - In UserServiceImpl - getUserByUsername() started. Username: manager1
+2022-08-26 01:24:37 INFO  ers.dao.UserDAOImplementation:58 - In UserDAOImplementation - getUserByUserName() started. Searching username: manager1
+2022-08-26 01:24:37 INFO  ers.utils.ConnectionUtils:26 - ConnectionUtils - using DB creds for connection: URL=jdbc:postgresql://jerry-training-db.cfzydu6hmrjx.us-east-2.rds.amazonaws.com/ERSProject2, Username=postgres, Password=MOzart0425
+2022-08-26 01:24:38 INFO  ers.dao.UserDAOImplementation:81 - In UserDAOImplementation - getUserByUsername() ended. Found user: Users [user_id=4, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:24:38 INFO  ers.services.UserServiceImplementation:70 - In UserServiceImpl - getUserByUsername() ended. Found user: Users [user_id=4, userName=manager1, password=admin, firstName=josh, lastName=fisher, email=joshf@rev.com, role=UserRoles [roleId=0, role=ADMIN]]
+2022-08-26 01:24:38 INFO  ers.servlet.RequestHelper:111 - Login successful - returning cookie in response
+2022-08-26 01:24:38 INFO  ers.servlet.RequestHelper:117 - In RequestHelper - processLogin() ended
